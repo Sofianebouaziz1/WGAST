@@ -13,3 +13,15 @@
 | [**Paper**]
 | [**ArXiv**]
 | [**References**](#How-to-cite)
+
+
+## Features
+
+WGAST framework offers the following features:
+* A novel non-linear generative model specifically tailored for STF of LST, enabling accurate daily estimation at 10 m resolution by integrating coarse 1 km Terra MODIS data with complementary spectral information from multiple satellite RS platforms.
+* An effective use of Landsat 8 as an intermediate-resolution bridge, overcoming the large resolution gap between Terra MODIS (1 km) and Sentinel-2 (10 m) to enable more stable and accurate fusion.
+* A physically motivated weak supervision strategy that leverages 30 m Landsat-derived LST as proxy ground truth, to bypass the challenge of missing ground truth data at 10 m resolution.
+* A training design that avoids dependence on future observations by relying solely on a previous reference date, allowing real-time applicability.
+* A significant reduction in cloud-induced gaps at 10 m resolution by leveraging the temporal resilience of Terra MODIS observations.
+* Rigorous validation on both satellite-based and in-situ ground measurements, demonstrating WGAST’s superior accuracy, robustness, and generalization compared to existing spatio-temporal fusion methods.
+
