@@ -8,7 +8,11 @@ from collections import OrderedDict
 import torch
 from torch.utils.data import Dataset
 
-from utils import make_tuple
+import sys
+import os
+sys.path.append(os.path.abspath('..'))  # go up to root directory
+
+from data_loader.utils import make_tuple
 
 
 root_dir = Path(__file__).parents[1]
