@@ -28,3 +28,16 @@ WGAST framework offers the following features:
 
 ## Paper
 WGAST's paper has been submitted to the IEEE Transactions on Geoscience and Remote Sensing (TGRS). Please refer to the arXiv [here] version for the full paper.
+
+## Requirements
+WGAST has been implemented and tested with the following versions: 
+
+- Python (v3.12.4).
+- Pytorch (v2.5.0).
+- Scipy (v1.14.1).
+- Earthengine-api (ee) (v1.1.2).
+- Geemap (v0.34.5).
+- NumPy (v2.0.1).
+- Pandas (v2.2.3).
+- Rasterio (v1.14.1).
+
