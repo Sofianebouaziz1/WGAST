@@ -12,7 +12,7 @@
 | [**Structure**](#Code-structure)
 | [**Paper**]
 | [**ArXiv**]
-| [**References**](#How-to-cite)
+| [**How to cite us ?**](#How-to-cite)
 
 
 ## Features
@@ -91,3 +91,14 @@ The following figure presents a qualitative comparison between WGAST and FuseTen
 </div>
 
 WGAST consistently produces more physically coherent and realistic LST outputs. It better captures fine spatial details, preserves thermal gradients, and reconstructs high-resolution daily 10 m LST outputs that even surpass the quality of the 30 m Landsat 8 reference, all from only coarse 1 km Terra MODIS input.
+
+
+## Authors 
+
+WGAST has been developed by Sofiane Bouaziz, Adel Hafiane, Raphaël Canals and Rachid Nedjai.
+
+You can contact us by opening a new issue in the repository.
+
+## How to cite?
+In case you are using WGAST for your research, please consider citing our work:
+
