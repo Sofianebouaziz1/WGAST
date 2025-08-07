@@ -72,7 +72,7 @@ WGAST/
 
 ## Experimental results
 
-### Quantitative Results
+### Quantitative Assessment
 
 The following table summarizes the results we obtained by comparing WGAST with BicubicI, Ten-ST-GEE, and FuseTen, using multiple standard metrics across four different dates. These metrics include RMSE, SSIM, PSNR, SAM, CC, and ERGAS.
 
@@ -82,7 +82,12 @@ The following table summarizes the results we obtained by comparing WGAST with B
 
 These results highlight the effectiveness of WGAST in achieving a strong trade-off between reducing reconstruction error and preserving quality. In most cases, WGAST outperforms prior approaches, particularly in RMSE, SSIM, PSNR, and ERGAS, validating its robustness and generalizability across diverse temporal scenes.
 
-.
+### Qualitative Assessment
 
+The following figure presents a qualitative comparison between WGAST and FuseTen across six representative regions. Each row includes a high-resolution satellite view, the Terra MODIS LST, the Landsat 8 LST reference, the prediction from FuseTen, and the prediction from WGAST. The selected regions span a variety of landscapes, including urban, semi-urban, industrial, and vegetated environments.
 
+<div style="text-align:center;">
+  <img src="https://github.com/Sofianebouaziz1/WGAST/blob/main/images/Qualitative_results.png" width="100%"/>
+</div>
 
+WGAST consistently produces more physically coherent and realistic LST outputs. It better captures fine spatial details, preserves thermal gradients, and reconstructs high-resolution daily 10 m LST outputs that even surpass the quality of the 30 m Landsat 8 reference, all from only coarse 1 km Terra MODIS input.
