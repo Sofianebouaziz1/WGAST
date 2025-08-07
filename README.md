@@ -25,7 +25,6 @@ WGAST framework offers the following features:
 * A significant reduction in cloud-induced gaps at 10 m resolution by leveraging the temporal resilience of Terra MODIS observations.
 * Rigorous validation on both satellite-based and in-situ ground measurements, demonstrating WGAST’s superior accuracy, robustness, and generalization compared to existing spatio-temporal fusion methods.
 
-
 ## Paper
 WGAST's paper has been submitted to the IEEE Transactions on Geoscience and Remote Sensing (TGRS). Please refer to the arXiv [here] version for the full paper.
 
@@ -40,7 +39,6 @@ WGAST has been implemented and tested with the following versions:
 - NumPy (v2.0.1).
 - Pandas (v2.2.3).
 - Rasterio (v1.14.1).
-- 
 
 ## Code structure
 
@@ -71,6 +69,20 @@ WGAST/
     ├── 03_data_structuring.ipynb --- Tutorial 03: Structuring and preparing datasets for training
     └── 04_run_model.ipynb --- Tutorial 04: Running training and testing of WGAST
 ```
+
+## Experimental results
+
+### Quantitative Results
+
+The following table summarizes the results we obtained by comparing WGAST with BicubicI, Ten-ST-GEE, and FuseTen, using multiple standard metrics across four different dates. These metrics include RMSE, SSIM, PSNR, SAM, CC, and ERGAS.
+
+<div style="text-align:center;">
+  <img src="https://github.com/Sofianebouaziz1/WGAST/blob/main/figures/Quantitative_results.jpg" width="100%"/>
+</div>
+
+These results highlight the effectiveness of WGAST in achieving a strong trade-off between reducing reconstruction error and preserving quality. In most cases, WGAST outperforms prior approaches, particularly in RMSE, SSIM, PSNR, and ERGAS, validating its robustness and generalizability across diverse temporal scenes.
+
+.
 
 
 
