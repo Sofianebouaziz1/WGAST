@@ -40,4 +40,37 @@ WGAST has been implemented and tested with the following versions:
 - NumPy (v2.0.1).
 - Pandas (v2.2.3).
 - Rasterio (v1.14.1).
+- 
+
+## Code structure
+
+```
+WGAST/
+├── data_download/ --- Scripts for downloading satellite data from Google Earth Engine
+│   ├── Landsat8Processor.py --- Download Landsat 8 data
+│   ├── MODISProcessor.py --- Download Terra MODIS data
+│   └── Sentinel2Processor.py --- Download Sentinel-2 data
+│
+├── data_loader/ --- Define the data loader structure and utilities
+│   ├── data.py --- Main data loader definition
+│   └── utils.py --- Helper functions for loading and processing
+│
+├── data_preparation/ --- Preprocessing and building Terra MODIS, Landsat 8, and Sentinel-2 triples
+│   ├── DataProcessor.py --- Clean and prepare raw satellite data
+│   └── GetTriple.py --- Create temporally aligned triples from processed data
+│
+├── model/ --- Define the WGAST model architecture
+│   └── WGAST.py --- Implementation of the WGAST deep learning model
+│
+├── runner/ --- Manage training and testing phases of the WGAST model
+│   └── experiment.py --- Train and test the model
+│
+└── tutorials/ --- A series of tutorials for each stage of the pipeline
+    ├── 01_data_download.ipynb --- Tutorial 01: Downloading satellite data from Google Earth Engine
+    ├── 02_data_preparation.ipynb --- Tutorial 02: Preprocessing and building data triples
+    ├── 03_data_structuring.ipynb --- Tutorial 03: Structuring and preparing datasets for training
+    └── 04_run_model.ipynb --- Tutorial 04: Running training and testing of WGAST
+```
+
+
 
