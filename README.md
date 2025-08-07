@@ -77,7 +77,7 @@ WGAST/
 The following table summarizes the results we obtained by comparing WGAST with BicubicI, Ten-ST-GEE, and FuseTen, using multiple standard metrics across four different dates. These metrics include RMSE, SSIM, PSNR, SAM, CC, and ERGAS.
 
 <div style="text-align:center;">
-  <img src="https://github.com/Sofianebouaziz1/WGAST/blob/main/figures/Quantitative_results.jpg" width="100%"/>
+  <img src="https://github.com/Sofianebouaziz1/WGAST/blob/main/figures/Quantitative_results.png" width="100%"/>
 </div>
 
 These results highlight the effectiveness of WGAST in achieving a strong trade-off between reducing reconstruction error and preserving quality. In most cases, WGAST outperforms prior approaches, particularly in RMSE, SSIM, PSNR, and ERGAS, validating its robustness and generalizability across diverse temporal scenes.
