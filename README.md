@@ -87,7 +87,7 @@ These results highlight the effectiveness of WGAST in achieving a strong trade-o
 The following figure presents a qualitative comparison between WGAST and FuseTen across six representative regions. Each row includes a high-resolution satellite view, the Terra MODIS LST, the Landsat 8 LST reference, the prediction from FuseTen, and the prediction from WGAST. The selected regions span a variety of landscapes, including urban, semi-urban, industrial, and vegetated environments.
 
 <div style="text-align:center;">
-  <img src="https://github.com/Sofianebouaziz1/WGAST/blob/main/images/Qualitative_results.png" width="100%"/>
+  <img src="https://github.com/Sofianebouaziz1/WGAST/blob/main/images/Qualitative_results.jpg" width="100%"/>
 </div>
 
 WGAST consistently produces more physically coherent and realistic LST outputs. It better captures fine spatial details, preserves thermal gradients, and reconstructs high-resolution daily 10 m LST outputs that even surpass the quality of the 30 m Landsat 8 reference, all from only coarse 1 km Terra MODIS input.
