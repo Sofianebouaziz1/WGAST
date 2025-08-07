@@ -25,3 +25,6 @@ WGAST framework offers the following features:
 * A significant reduction in cloud-induced gaps at 10 m resolution by leveraging the temporal resilience of Terra MODIS observations.
 * Rigorous validation on both satellite-based and in-situ ground measurements, demonstrating WGAST’s superior accuracy, robustness, and generalization compared to existing spatio-temporal fusion methods.
 
+
+## Paper
+WGAST's paper has been submitted to the IEEE Transactions on Geoscience and Remote Sensing (TGRS). Please refer to the arXiv [here] version for the full paper.
