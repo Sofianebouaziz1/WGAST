@@ -10,8 +10,7 @@
 [**Features**](#Features)
 | [**Tutorials**](https://github.com/Sofianebouaziz1/WGAST/tree/main/tutorials)
 | [**Structure**](#Code-structure)
-| [**Paper**]
-| [**ArXiv**]
+| [**ArXiv**](https://arxiv.org/abs/2508.06485)
 | [**How to cite us ?**](#How-to-cite)
 
 
