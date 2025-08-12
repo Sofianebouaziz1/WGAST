@@ -1,6 +1,7 @@
 # WGAST : Weakly-Supervised Generative Network for Daily 10 m Land Surface Temperature Estimation via Spatio-Temporal Fusion
 
-![WGAST Demo](images/gif_WGAST.gif)
+<img src="images/gif_WGAST.gif" alt="WGAST Demo" width="600">
+
 
 ## Description
 
