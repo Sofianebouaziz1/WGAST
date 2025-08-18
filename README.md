@@ -105,3 +105,11 @@ You can contact us by opening a new issue in the repository.
 ## How to cite?
 In case you are using WGAST for your research, please consider citing our work:
 
+```
+@article{bouaziz2025wgast,
+  title={WGAST: Weakly-Supervised Generative Network for Daily 10 m Land Surface Temperature Estimation via Spatio-Temporal Fusion},
+  author={Bouaziz, Sofiane and Hafiane, Adel and Canals, Rapha{\"e}l and Nedjai, Rachid},
+  journal={arXiv preprint arXiv:2508.06485},
+  year={2025}
+}
+```
