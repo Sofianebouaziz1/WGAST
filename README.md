@@ -29,7 +29,7 @@ WGAST framework offers the following features:
 * Rigorous validation on both satellite-based and in-situ ground measurements, demonstrating WGAST’s superior accuracy, robustness, and generalization compared to existing spatio-temporal fusion methods.
 
 ## Paper
-WGAST's paper has been submitted to the IEEE Transactions on Geoscience and Remote Sensing (TGRS). Please refer to the arXiv [here] version for the full paper.
+WGAST's paper has been submitted to the IEEE Transactions on Geoscience and Remote Sensing (TGRS). Please refer to the arXiv [here] (https://arxiv.org/abs/2508.06485) version for the full paper.
 
 ## Requirements
 WGAST has been implemented and tested with the following versions: 
