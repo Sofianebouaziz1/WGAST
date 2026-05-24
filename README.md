@@ -1,7 +1,9 @@
 <h1 align="center">  WGAST: Weakly-Supervised Generative Network for Daily 10 m Land Surface Temperature Estimation via Spatio-Temporal Fusion </h1>
 
 <div align="center">
-<a href="https://arxiv.org/abs/2508.06485" target="_blank"><img src=https://img.shields.io/badge/Paper-arXiv-b5212f.svg?logo=arxiv></a>
+<a href="https://ieeexplore.ieee.org/document/11503373" target="_blank">
+  <img src="https://img.shields.io/badge/Paper-IEEE%20Xplore-00629B.svg?logo=ieee">
+</a>
 </div>
 
 <div align="center" style="margin-top: 30px;">
@@ -118,10 +120,11 @@ You can contact us by opening a new issue in the repository.
 In case you are using WGAST for your research, please consider citing our work:
 
 ```
-@article{bouaziz2025wgast,
-  title={WGAST: Weakly-Supervised Generative Network for Daily 10 m Land Surface Temperature Estimation via Spatio-Temporal Fusion},
+@article{bouaziz2026wgast,
+  title={WGAST: Weakly-supervised generative network for daily 10 m Land Surface Temperature estimation via spatio-temporal fusion},
   author={Bouaziz, Sofiane and Hafiane, Adel and Canals, Rapha{\"e}l and Nedjai, Rachid},
-  journal={arXiv preprint arXiv:2508.06485},
-  year={2025}
+  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
+  year={2026},
+  publisher={IEEE}
 }
 ```
